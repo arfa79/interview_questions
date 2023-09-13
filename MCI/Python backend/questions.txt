@@ -3,4 +3,4 @@ what is the diffrence between php js and python ?
 what is the relational database ?
 what is data normalization ?
 why python is slow and what kind of language is this ?
-whatis block in js ?
+what is block in js ?
