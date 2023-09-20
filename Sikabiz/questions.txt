@@ -1,0 +1,10 @@
+======= HR Interveiew =======
+1. What is  Backend ? and what is doing the Backend developer ? 
+2. Do you want to emigration to another country?
+3. What is your negative and positive Adjective?
+4. What were you work ? 
+5. What university have you studied ?
+6. Do you have any similar experience to this role ?
+7. Do you checked our site and what we doing ? Let me explain about our App
+8. We have internship at the beginning and then we hire and the technical interview will say how much salary do you get and how much is the time of the intership
+======== Technical Interview

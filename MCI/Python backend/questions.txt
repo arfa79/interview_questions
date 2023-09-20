@@ -1,6 +1,16 @@
-### Technical
-what is the diffrence between php js and python ? 
-what is the relational database ?
-what is data normalization ?
-why python is slow and what kind of language is this ?
-what is block in js ?
+Point : both technichal and hr interview have doon at same time
+========== HR Interveiew =======
+1.Do you want to emigration to another country?
+2.Do you passed the military service ?
+3.What university have you studied ?
+4.What is your negative and positive Adjective?
+5.Do you like to code alone or with team? if you want to choose or have problem doo you tell us?
+6.What do you do in hard situations and deadlines ? what are you doing when you have stress?
+7.Have you done a team work?
+========== Technical Interveiew ==========
+1.what is the diffrence between php js and python ? 
+2.what is the relational database ?
+3.what is data normalization ?
+4.why python is slow and what kind of language is this ?
+5.what is block in js ?
+6.Do you have any similar experience or project to this role ? 
