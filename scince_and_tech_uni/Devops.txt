@@ -1,0 +1,4 @@
+40 instance docker swarm or kubernets?
+Not finished task but another with higher priority what's your sence ?
+Two separate container with isolated and what do you check first for knowing why they can't connect?
+Are you having problem with religious culture ?
