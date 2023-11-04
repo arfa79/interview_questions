@@ -1,0 +1,8 @@
+============================= introduction ========================
+First you have a phone interview about yourself and skills in English
+and also salary, time, agrement and aplans they have .
+It has three parts for interview: technical, HR, management
+============================= technical ===========================
+in technical interview we have a lots of question about network and 
+Linux you should know about them and a few questions about development skills and 
+you should focus on network and what a telecom company do like 5G
