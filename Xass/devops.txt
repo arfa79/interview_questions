@@ -1,0 +1,52 @@
+======================= technichal ==========================
+1. scenario: if you be a new to the company and want to see the 
+a new image that the front-end developer has made with details 
+what do you do? docker inspect 
+2. what is Inode in Linux? data structure
+3. what is namespace in linux ?
+4. what is exit code 0 and 1 and 137 ?
+ 0 --> runs successfully 1 --> something has been wrong 
+ 137 --> code is issued when a process is terminated externally because of its memory consumption
+5. how do you see the folder that has most of the space in the linux volume ?
+du -h --max-depth=1 | sort -hr
+6.how can i make aceess to a folder for users in linux? 
+chmod u+rwx,g+rx,o+rx /path/to/folder
+8.what is telnet and how can i use it? 
+Telnet is a network protocol and a command-line tool used for remote communication with other 
+computers and devices over a network, typically the internet or a local area network (LAN).
+It allows you to establish text-based, interactive communication with a remote host or device.
+Telnet was widely used in the past for remote administration and accessing network services, 
+but its usage has decreased due to security concerns, as it transmits data, including login 
+credentials, in an unencrypted and insecure manner.
+telnet 192.168.1.100 23
+9.if we try to telnet to server that has 502 error in browser what is happening ?
+Debugging and Troubleshooting: Using Telnet in such a scenario can be a debugging or 
+diagnostic tool to inspect how the server is responding or to troubleshoot network connectivity 
+issues. You might use it to gather information that can help identify the root cause 
+of the "502 Bad Gateway" error, but it won't directly resolve the HTTP error itself.
+10. if i run the docker stop command a container still continues to its work what is the type of that?
+thats is a dbus-daemon demon . The dbus-daemon is typically a system-level service running
+ on the host operating system, and stopping a Docker container will not impact its operation
+11. what is cmd and if we have 5 cmd wich one is running first? 
+You specify the command to run when the container is started. This can be the default command that
+ runs when the container starts or an entry point script
+12. what is entry point ? on a Dockerfile, the ENTRYPOINT instruction specifies the command
+that will be executed when a Docker container based on that image is started. It defines the
+primary command that the container will run, and it can also include command-line arguments
+13. what is CI/CD ? continues integration / continues delivery 
+14. what is gitlab-runer ? and how we use that ? what is the name of the config file ? 
+You need to install GitLab Runner on a machine or server that will execute the CI/CD jobs. The installation process may vary depending on your operating system. 
+Install GitLab Runner:Register the Runner Configure Runner Settings Start the Runner Associate with Projects Run CI/CD Jobs
+config.toml
+15. what is parameter we use to nginx load balancing in high load? Upstream Servers
+16. what is proxy pass ?The proxy_pass directive in Nginx is used to set up reverse proxying.
+It passes client requests to a specified server or group of servers, making Nginx
+act as an intermediary or a reverse proxy server. This is commonly used for load balancing 
+and serving content from backend servers
+17. what is the diffrence of pass proxy and proxy server ? threre is no diffrence betweeen theses .
+and just that doesn't modify or cache the data passing through it
+18.what is 502 error and what should i check ? A "502 Bad Gateway" error typically occurs when
+ a web server acting as a gateway or proxy is unable to get a valid response from an upstream server,
+ which is usually another web server or application server.
+ we should check :
+ Check the Upstream ServerExamine Proxy or Gateway ConfigurationServer HealthFirewall and Security RulesTimeouts and Keep-AlivesResource UtilizationNetwork IssuesApplication ErrorsLoad BalancersHTTP Status CodesThird-Party Services
