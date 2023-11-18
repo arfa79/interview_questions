@@ -1,0 +1,7 @@
+=================== preinterview ====================
+15 min interview 1 hr question and 2 technical (scenario and knowledge)
+1. tell me about yourself?
+2. think you have Kubernetes infrastructure and from the security team there is an issue with a worker
+how we can update that without zero downtime?
+3. what is HPA and autoscale ?
+https://chat.openai.com/share/eade0f86-a128-40f9-9b2d-9e3d6f421020
