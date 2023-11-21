@@ -1,0 +1,34 @@
+================= HR ===============
+1. what happend you becamed a programer ?
+2. what have you done till today?
+3. why programing and why are you think you have potential to became a good one?
+4. do you had any social activity experience ?
+5. do you want to apply and leave iran?
+6. do you had been effective in what have you done?
+7. what is your expectation in a woork space ?
+8. do you had you think about our company ?
+9. our challenges in company make you scared ? how do you solve that?
+10. how much salary do you want ?
+11. when you can start?
+12. do you have problem with 50 million garanty for assets?
+13. can you speak english well ?
+14. do you do any activity for your self geowth ?
+15. do you had done any social activity not related to your job ?
+16. the weak member of your team has been leaned what dosent know in your team?
+=============== technical ============
+1. do you had any experience with docker compose?
+2. do you know how to stop 30 docker container running in  back ground ? docker stop $(docker ps -a -q)
+3. do you know about relational database and types of relations ? one to many , many to many , many to one
+4. do you know about class in django ? 
+5. do you know about how to write a test ?
+6. do you have any interst in webscraping and data gadering ?
+7. do you have any experience in machine learning ?
+8. do you have any experience in image processing ?
+9. what is happining in database in authenticatiuon and tabels?
+10. how do you set a many to many relation in database? we define 3 tabels and one of them is for connecting them
+11. do you have any experience with bash ?
+12. how authentication work in backend ?
+13. with libraries do you most use in django ?
+14. are you familiar with celery and rabitmq?
+15. are you familier with redis ?
+16. do you had ant organization experience?
