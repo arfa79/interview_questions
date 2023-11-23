@@ -31,4 +31,8 @@
 13. with libraries do you most use in django ?
 14. are you familiar with celery and rabitmq?
 15. are you familier with redis ?
-16. do you had ant organization experience?
+16. do you have any organization experience?
+17. do you know about data validation in django?
+18. do you know about regex ?
+19. what is sync and async ?
+20. do you have any experience working with schedulers ?
