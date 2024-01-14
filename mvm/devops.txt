@@ -1,2 +1,8 @@
-hr nothing
-tech docker kubernetes redis cache and ci/cd and also inode and ...
+============= hr =============================
+ nothing
+================== tech =======================
+ docker kubernetes redis cache and ci/cd starategy acr deployments level and kubernetes codes for running commands 
+ and also inode git stach fetch pull clone and fork nginx upstream and downstream and location diff
+ secret algorithem rabit mq and consiumer and boot load levels and docker namesapace and cmd and 
+ endpoint diff and also copy and add diff
+diffrenet type of storage in kubernetes
