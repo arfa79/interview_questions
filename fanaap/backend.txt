@@ -3,5 +3,45 @@
 online interview and PM introducing fanaap and i shoud introduce myself
 
 ================== technical task =============
+Task: 
+Implement a Dockerized Django app responsible for viewing, creating, and updating blog posts, with Celery for executing an arbitrary task asynchronously. Additionally, add GitHub Actions for continuous integration and utilize the Django Ninja framework for API development.
+You're not required to complete all bonus sub-tasks, as they can be time-consuming. Focus on implementing a few bonuses correctly, prioritizing clean code and best practices over quantity.
 
+Requirements:
+1. Create a Django project named "BlogApp" with a Django app named "blog".
+2. Create a model named "Post" with the following fields:
+   - title (String with a maximum length of 200 characters)
+   - content (It does not have a max length)
+   - created_at (Datetime of when the post was created)
+   - updated_at (Datetime of the last time this post was updated)
+3. Create a model named "Comment" with the following fields:
+   - post (The post related to this comment)
+   - text (comment text)
+   - email (email of the person who wrote the comment)
+3. Create the necessary database tables by running migrations.
+4. Implement Django REST framework to implement the following APIs:
+   - APIs to retrieve a list of posts and comments
+   - API to retrieve a single specific post
+   - APIs to create a post or a comment
+   - API to update a specific post
+5. Implement proper URL routing to map URLs to the corresponding views.
+6. Create serializers to handle the serialization and deserialization of data for the "Post" model.
+7. Create views and viewsets to handle the API endpoints and interact with the "Post" model.
+8. Bonus: Use Celery to execute an arbitrary asynchronous task. For example, you can create a Celery task that generates a thumbnail image for each uploaded image in a blog post.
+9. Implement tests to ensure the functionality of your app.
+   - Include unit tests for serializers, views, and Celery tasks.
+   - Bonus: Include integration tests to cover the main use cases.
+10. Bonus: Dockerize the project by creating a Dockerfile and a docker-compose.yml file:
+   - The Dockerfile should include the necessary commands to install dependencies, copy the code into the container, and configure the entrypoint.
+   - The docker-compose.yml file should define services for the Django app, the Celery worker, and the message broker.
+   - Configure the docker-compose.yml file to link the services and expose the necessary ports.
+11. Bonus: Add GitHub Actions for continuous integration. Configure a workflow that runs the tests and checks the code quality on each push or pull request.
+12. Bonus: Provide a README file with instructions on how to set up and run the application using Docker, including details on building the Docker image, starting the containers with a single docker-compose up command, and integrating with GitHub Actions.
+13. Bonus: Utilize the Django Ninja framework to enhance the API development. Refactor the existing API endpoints to utilize Django Ninja's features, such as automatic generation of OpenAPI documentation.
+14. Bonus: Modify the Comment model and its APIs to enable users to comment not just on posts, but also on other comments.
+15. Bonus: Use PostgreSQL as your database.
+16. Bonus: Implement user authentication and authorization using Django REST framework's authentication and permission classes.
+17. Bonus: Implement caching mechanisms, such as Redis, to improve API performance for read-only endpoints.
+
+Please let me know if you need any further clarification or have any specific requirements for the task.
 ================== HR and management =============
