@@ -1,0 +1,88 @@
+gRPC
+
+https://www.techtarget.com/searchapparchitecture/definition/Remote-Procedure-Call-RPC
+Architecture
+https://aws.plainenglish.io/getting-started-with-grpc-and-protocol-buffers-13b9cf24650a
+Protocol Buffers (protobuf):
+It’s a method of encoding structured data.
+You define how you want your data to be structured once, using special .proto files.
+This allows you to write a schema for your data using a language-neutral, platform-neutral, extensible mechanism for serializing structured data
+
+oop
+object-oriented programing
+is a method of structuring a program by bundling related properties and behaviors into individual objects.
+
+examples and definitions :
+https://www.programiz.com/python-programming/object-oriented-programming
+
+Inheritance  : a class using details of another class 
+Encapsulation  : bundling attribute and method a class for data hiding
+Polymorphism  : method or operator or object different operations in  scenarios
+
+https://www.programiz.com/python-programming/polymorphism
+
+Key Points to Remember:
+
+    Object-Oriented Programming makes the program easy to understand as well       as efficient. 
+    Since the class is sharable, the code can be reused.
+    Data is safe and secure with data abstraction.
+    Polymorphism allows the same interface for different objects, so programmers can write efficient code.
+
+Methods like .__init__() and .__str__() are called dunder methods because they begin and end with double underscores.
+
+>>> type(miles)
+<class '__main__.JackRussellTerrier'>
+
+>>> isinstance(miles, Dog)
+True
+
+Notice that isinstance() takes two arguments, an object and a class. In the example above, isinstance() checks if miles is an instance of the Dog class and returns True.
+
+=========== SOLID =============
+SRP --- (single responsibility principle)
+OCP --- (open/closed principle) : open for extension closed for modification
+LSP --- (liskov substitution principle)
+ISP --- (interface segregation principle)
+DIP --- (Dependency inversion principle)
+
+Linear Search: This algorithm sequentially checks each element of the list until it finds an element that matches the target value. If it finds the matching element, it returns the index; otherwise, it returns -1, indicating the target is not in the list.
+
+============ simple search and sort algorithms in Python ===============
+
+Binary Search: Binary search is more efficient than linear search for sorted lists. It starts by comparing the target value to the middle element of the list. If they don’t match, it eliminates half of the list based on whether the target is likely to be in the lower or upper half of the list and then repeats the process on the remaining half.
+
+Bubble Sort: This sorting algorithm repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. The pass through the list is repeated until the list is sorted. It’s named for the way smaller elements “bubble” to the top of the list.
+
+Insertion Sort: Insertion sort builds the final sorted array one item at a time. It takes each element from the input and finds the location it belongs within the sorted list and inserts it there. It repeats until no input elements remain.
+
+Selection Sort: This algorithm divides the input list into two parts: a sorted sublist of items which is built up from left to right at the front (left) of the list, and a sublist of the remaining unsorted items. On each iteration, it selects the smallest (or largest, depending on sorting order) element from the unsorted sublist, swaps it with the leftmost unsorted element, and moves the sublist boundaries one element to the right.
+
+gRPC vs REST
+
+REST:
+
+Pros:
+Flexibility: REST is less strict about contracts, making it easier to evolve APIs over time4.
+Ease of Use: JSON, used in REST, is more flexible and easier to work with, especially for web developers3.
+Ubiquity: REST is widely adopted and understood, with extensive support across platforms and languages1.
+Cons:
+Performance: REST typically uses HTTP/1.1, which does not support multiplexing, potentially leading to slower performance1.
+Less Efficient Data Encoding: JSON is less efficient in terms of size and speed compared to Protocol Buffers used in gRPC3.
+In summary, if your application prioritizes performance and you need strong data typing, gRPC might be the better choice. However, if you value flexibility and ease of use, REST could be more suitable. It’s essential to consider the specific requirements of your application and the environment in which it will operate when making this decision3.
+
+Protocol Buffers
+
+often referred to as protobufs, are a method of serializing structured data, and they are used in conjunction with gRPC as both an Interface Definition Language (IDL) and a message interchange format. Here’s a brief overview:
+
+Interface Definition Language (IDL):
+
+ Protobufs allow you to define how you want your data structure to look using a language-neutral, platform-neutral, extensible way of serializing structured data. This is done through .proto files, where you specify your data types and 
+service methods.
+
+Serialization Format: 
+
+Once you’ve defined your data structures and service methods in .proto files, protobufs allow you to generate source code in various languages. This generated code will enable you to easily build and parse your structured data.
+
+gRPC Integration:
+
+ In gRPC, these .proto files are used to generate client and server code. gRPC services use protobufs to define the service methods and their request/response message types, making it a comprehensive tool for API design and remote procedure calls.
