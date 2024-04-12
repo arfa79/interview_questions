@@ -1,18 +1,24 @@
 gRPC
 
 https://www.techtarget.com/searchapparchitecture/definition/Remote-Procedure-Call-RPC
+
 Architecture
+
 https://aws.plainenglish.io/getting-started-with-grpc-and-protocol-buffers-13b9cf24650a
+
 Protocol Buffers (protobuf):
+
 It’s a method of encoding structured data.
 You define how you want your data to be structured once, using special .proto files.
 This allows you to write a schema for your data using a language-neutral, platform-neutral, extensible mechanism for serializing structured data
 
 oop
+
 object-oriented programing
 is a method of structuring a program by bundling related properties and behaviors into individual objects.
 
 examples and definitions :
+
 https://www.programiz.com/python-programming/object-oriented-programming
 
 Inheritance  : a class using details of another class 
@@ -44,6 +50,8 @@ OCP --- (open/closed principle) : open for extension closed for modification
 LSP --- (liskov substitution principle)
 ISP --- (interface segregation principle)
 DIP --- (Dependency inversion principle)
+
+https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design
 
 Linear Search: This algorithm sequentially checks each element of the list until it finds an element that matches the target value. If it finds the matching element, it returns the index; otherwise, it returns -1, indicating the target is not in the list.
 
