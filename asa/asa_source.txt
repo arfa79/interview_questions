@@ -2,6 +2,8 @@ gRPC
 
 https://www.techtarget.com/searchapparchitecture/definition/Remote-Procedure-Call-RPC
 
+https://grpc.io/docs/languages/python/basics/
+
 Architecture
 
 https://aws.plainenglish.io/getting-started-with-grpc-and-protocol-buffers-13b9cf24650a
@@ -51,11 +53,26 @@ LSP --- (liskov substitution principle)
 ISP --- (interface segregation principle)
 DIP --- (Dependency inversion principle)
 
+LSP Example :
+
+class Bird:
+    def fly(self):
+        pass
+
+class Ostrich(Bird):
+    def fly(self):
+        raise Exception("Can't fly")
+
+# LSP Violation: Ostrich is a Bird but can't fly, breaking the behavior when substituting.
+
+
 https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design
 
-Linear Search: This algorithm sequentially checks each element of the list until it finds an element that matches the target value. If it finds the matching element, it returns the index; otherwise, it returns -1, indicating the target is not in the list.
-
 ============ simple search and sort algorithms in Python ===============
+
+https://realpython.com/sorting-algorithms-python/#the-bubble-sort-algorithm-in-python
+
+Linear Search: This algorithm sequentially checks each element of the list until it finds an element that matches the target value. If it finds the matching element, it returns the index; otherwise, it returns -1, indicating the target is not in the list.
 
 Binary Search: Binary search is more efficient than linear search for sorted lists. It starts by comparing the target value to the middle element of the list. If they don’t match, it eliminates half of the list based on whether the target is likely to be in the lower or upper half of the list and then repeats the process on the remaining half.
 
@@ -80,6 +97,8 @@ In summary, if your application prioritizes performance and you need strong data
 
 Protocol Buffers
 
+https://protobuf.dev/overview/
+
 often referred to as protobufs, are a method of serializing structured data, and they are used in conjunction with gRPC as both an Interface Definition Language (IDL) and a message interchange format. Here’s a brief overview:
 
 Interface Definition Language (IDL):
@@ -91,6 +110,31 @@ Serialization Format:
 
 Once you’ve defined your data structures and service methods in .proto files, protobufs allow you to generate source code in various languages. This generated code will enable you to easily build and parse your structured data.
 
+Note
+
+The 2 in pb2 indicates that the generated code is following Protocol Buffers Python API version 2. Version 1 is obsolete. It has no relation to the Protocol Buffers Language version, which is the one indicated by syntax = "proto3" or syntax = "proto2" in a .proto file.
+
+Some of the advantages of using protocol buffers include:
+
+    Compact data storage
+    Fast parsing
+    Availability in many programming languages
+    Optimized functionality through automatically-generated classes
+
 gRPC Integration:
 
  In gRPC, these .proto files are used to generate client and server code. gRPC services use protobufs to define the service methods and their request/response message types, making it a comprehensive tool for API design and remote procedure calls.
+
+ __name__ == "__main__"
+
+The if __name__ == "__main__": statement in Python is used to determine if a Python script is being run as the main program or if it is being imported as a module into another script. When a Python file is executed, the interpreter sets the __name__ variable to "__main__" if the file is being run as the main program. If the file is being imported from another module, __name__ is set to the module's name.
+Here's a simple example to illustrate its use:
+
+# This function will only run if this file is the entry point to the program
+def main():
+    print("Hello, World!")
+
+if __name__ == "__main__":
+    main()
+
+In the code above, the main() function will only execute if the file is run directly. If the file is imported into another script, the main() function will not run unless it is called explicitly within that script. This allows for a common pattern where a file can be both used by other modules and run as a standalone script for testing or other purposes.
