@@ -1,3 +1,8 @@
-hr
+==================== hr ==============================
 phone call and porseline form from your personal info 
 and about company info question 
+==================== Technical =======================
+oop questions and defenitions
+solid questions and defenitions
+datbase prompts questions ( join , max , groupby , date )
+decorators in python and how you used them 
