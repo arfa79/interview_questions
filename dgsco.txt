@@ -1,7 +1,0 @@
-hr
-calling and ask few technical questions like 
-are you have experience with web scraping
-MongoDB join collection , git push and git pull
-all types of join in SQL what nosql database you 
-  work with and set a time for code reweiw and main 
-technical interview 
