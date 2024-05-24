@@ -1,3 +1,5 @@
+possition : Python developer 
+
 ===================== HR ===========================
 
 just set an interview for a session and inviting you 
@@ -10,3 +12,4 @@ ask you where will you see yourself in 5 years and what do youwant from your com
 asking you about your ecperience and technologies you worked on python git and linux distro
 
 your information about telecom is valuable cause the company is about that
+
