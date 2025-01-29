@@ -1,0 +1,14 @@
+python coding for anagram concept 
+what is docker file?
+what is decorator ?
+how we secure a program?
+what is rest api and alternatives 
+what is docker compose ?
+how much do you deep in redis and rabbitmq?
+how do you solve a git conflict?
+MySQL postgresql and mongodb difference?
+query optimization and indexing?
+soft skills about problem-solving work on the
+pressure and time management and also questions 
+about working out of the work hours and difficult 
+location of the company 
