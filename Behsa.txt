@@ -1,1 +1,16 @@
-
+how we define nodes and cluster with 4 of them and why one of them is mater and other slave and if master failes why we defined others ? 
+what is git stash and merge 
+what is file system 
+basic network knowlge 
+what is demon and demonless 
+which distribution do you used 
+what is highavailablity
+what is systemctl 
+what is sed 
+how do you find a devise or the storage 
+docker images and the kernel do you used for that 
+_____________________
+volunteer work 
+how do you compromise with a bad behavior person 
+how do you manage your priorities and tasks
+how do you inform when you can't complete a task
