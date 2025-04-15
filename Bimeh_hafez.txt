@@ -1,1 +1,4 @@
-
+this questions is related to the backend development in python/Django stack
+1.can you return the objects of this models except one of them and serialize that ?
+2. can make something to people who logged in just have permission to work ?
+3. can you 
